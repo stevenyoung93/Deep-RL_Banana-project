@@ -4,7 +4,8 @@
 tbd
 
 ## 	Instructions for installing dependencies or downloading needed files.
-tbd
+- Install Unityagents
+- torch
 
 ## 	How to run the code in the repository, to train the agent
 tbd
