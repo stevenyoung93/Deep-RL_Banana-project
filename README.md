@@ -48,7 +48,7 @@ The approach of my implementation considers the following elements:
 - Follow instructions above to install dependencies and do required download
 - Open the notebook "Navigation" in the folder "p1_navigation"
 - Run all cells in shown order
-- Last cell will return and print the scores from the DQN trainig of the agent
+- Notebook include options to (re-)train the model, or to load the trained model and replay without further learning
 - Hyperparameters can be adjusted when calling the dqn function
 
 ## Results
