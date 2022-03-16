@@ -31,7 +31,7 @@ The approach of my implementation considers the following elements:
   - Epsilon-greedy policies
   - Learning rate
 - Combination of deep learning with reinforcement learning -> Deep reinforcement learning (representation of the action-value function Q as neural network instead of classical Q-table)
-  - Neural network with two hidden layers (Input with 37 nodes for states -> 128-node-fc-layer -> ReLU -> 64-node-fc-layer -> ReLU -> Dropout p=0.4 -> 4-node-fc-layer for actions)
+  - Neural network with two hidden layers 
 - Application of stabilizing techniques to converge and efficiently approach optimal value function q*
   - Experience replay memory
   - Fixed Q-targets
@@ -45,8 +45,8 @@ The approach of my implementation considers the following elements:
 - Clone and extract this git repository which includes the environment (unityagents)
 
 ## 	How to run the code in the repository, to train the agent
-- Follow instructions above to install dependencies and do required downloads
-- Open the notebook "Navigation"
+- Follow instructions above to install dependencies and do required download
+- Open the notebook "Navigation" in the folder "p1_navigation"
 - Run all cells in shown order
 - Last cell will return and print the scores from the DQN trainig of the agent
 - Hyperparameters can be adjusted when calling the dqn function
