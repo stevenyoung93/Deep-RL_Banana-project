@@ -2,11 +2,13 @@
 
 The goal of this project is to train an agent to navigate the 'Banana Collector'-environment and learn to get an average score of at least +13 over 100 consecutive episodes. 
 
+<img width="398" alt="Bildschirmfoto 2022-03-16 um 16 48 40" src="https://user-images.githubusercontent.com/23191357/158631214-219431d1-dced-4dfa-a484-d5f68520a6db.png">
+
 ## Project environment
 ### General 
 The environment used is similar to UnityML's Banana Collector environment, provided by Udacity. 
 
-The applied environment can be downloaded here: TBD
+The applied environment can be downloaded from this repository: https://github.com/udacity/Value-based-methods.git
 
 ### Environment details
 The environment is a finite square world with borders. Within this world, there are blue and yellow bananas at randomly distributed locations:
