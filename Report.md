@@ -1,5 +1,7 @@
 # Report: Description of the implementation.
 
+The deep Q-learning algorithm below successfully solves the task of this project. It learns from the provided environment without any prior knowledge of it or data labels and maximizes reward by interacting with the nevironment.
+
 ## Algorithm walkthrough
 
 - Instantiate the agent
