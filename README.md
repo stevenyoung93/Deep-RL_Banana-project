@@ -47,7 +47,7 @@ The approach of my implementation considers the following elements:
  - For Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
  - For Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
  - For Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
- - For MacOSX: (uploaded in this repo, but please unpack the zip)
+ - For MacOSX: (uploaded in this repo, but please unpack the zip and dont forget to grant rights to execute the .app file)
 
 ## 	How to run the code in the repository, to train the agent
 - Follow instructions above to install dependencies and do required download
