@@ -42,11 +42,13 @@ The approach of my implementation considers the following elements:
 - Install packages:
   - numpy
   - torch
-- Clone and extract this git repository which includes the environment (unityagents)
+- Clone and extract this git repository
+- Download the appropriate Banana-environment, depending on your operating system, and put the file in the same directory as Navigation.ipynb 
 
 ## 	How to run the code in the repository, to train the agent
 - Follow instructions above to install dependencies and do required download
-- Open the notebook "Navigation" in the folder "p1_navigation"
+- Open the notebook "Navigation.ipynb"
+- If you are not using MacOS: Update the file path in the env variable (second code block)
 - Run all cells in shown order
 - Notebook include options to (re-)train the model, or to load the trained model and replay without further learning
 - Hyperparameters can be adjusted when calling the dqn function
