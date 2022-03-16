@@ -33,9 +33,7 @@ Neural network architecture: Two hidden layers, only fully connected and activat
 - ReLU
 - Dropout p=0.4
 - 4-nodes-fc-layer (for actions)
-
-![image](https://user-images.githubusercontent.com/23191357/158647094-dbb301b1-00ce-4243-b65e-2ff235b0b216.png)
-
+![image](https://user-images.githubusercontent.com/23191357/158647180-acce75a3-87ad-4c40-8bc8-c35b080a8127.png)
 
 Hyperparameters:
 - a 
