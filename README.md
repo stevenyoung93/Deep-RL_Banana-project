@@ -1,12 +1,12 @@
  # Deep-RL_Banana-project
 
+## General 
 The goal of this project is to train an agent to navigate the 'Banana Collector'-environment and learn to get an average score of at least +13 over 100 consecutive episodes. 
 
-<img width="398" alt="Bildschirmfoto 2022-03-16 um 16 48 40" src="https://user-images.githubusercontent.com/23191357/158631214-219431d1-dced-4dfa-a484-d5f68520a6db.png">
-
 ## Project environment
-### General 
-The environment used is similar to UnityML's Banana Collector environment, provided by Udacity. 
+The environment used is similar to UnityML's Banana Collector environment, provided by Udacity (see below).
+
+<img width="398" alt="Bildschirmfoto 2022-03-16 um 16 48 40" src="https://user-images.githubusercontent.com/23191357/158631214-219431d1-dced-4dfa-a484-d5f68520a6db.png">
 
 The applied environment can be downloaded from this repository: https://github.com/udacity/Value-based-methods.git
 
@@ -38,9 +38,15 @@ The approach of my implementation considers the following elements:
   - Dropout layer
 
 ## 	Instructions for installing dependencies or downloading needed files.
-- numpy
-- Install Unityagents
-- torch
+- Make sure to use Python v3.6 (I set up a separate environment in my Anaconda to run this)
+- Install packages:
+  - numpy
+  - torch
+- Clone and extract this git repository which includes the environment (unityagents)
 
 ## 	How to run the code in the repository, to train the agent
-tbd
+- Follow instructions above to install dependencies and do required downloads
+- Open the notebook "Navigation"
+- Run all cells in shown order
+- Last cell will return and print the scores from the DQN trainig of the agent
+- Hyperparameters can be adjusted when calling the dqn function
