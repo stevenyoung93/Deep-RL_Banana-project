@@ -33,19 +33,27 @@ Neural network architecture: Two hidden layers, only fully connected and activat
 - ReLU
 - Dropout p=0.4
 - 4-nodes-fc-layer (for actions)
-![image](https://user-images.githubusercontent.com/23191357/158647180-acce75a3-87ad-4c40-8bc8-c35b080a8127.png)
+
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/23191357/158647180-acce75a3-87ad-4c40-8bc8-c35b080a8127.png">
 
 Hyperparameters:
-- a 
-- b
-- 
+- n_episodes = 2000, number of episodes
+- max_t = 300, number of timesteps per episode
+- eps_start = 1.0, eps_end = 0.01, eps_decay = 0.095, epsilon values for epsilon-greedy policy
+- BATCH_SIZE = 64, minibatch size for experience replay
+- GAMMA = 0.99, discount factor for future expected reward
+- TAU = 1e-3, learning factor for soft update of target parameters (Q_target and Q_local updates)
+- alpha = LR = 5e-4, learning rate
+- UPDATE_EVERY = 4, how frequent (in terms of steps) to update the Q network
 
 ## Plot of Rewards
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/23191357/158651893-f3f356f1-865b-4d0e-b365-2d834a6c6265.png">
 
-A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. The submission reports the number of episodes needed to solve the environment.
+The plot shows that the agent was able to receive an average reward over 100 episodes of +16.3 after 2.000 episodes. The agent was able to surpass the minimium requirement of +13 after 393 episodes.
 
 ## Ideas for Future Work
 
-The submission has concrete future ideas for improving the agent's performance.
-- Prioritized experience replay
-- Dueling DQN or Rainbow
+Future ideas for improving the agent's performance:
+- Conduct more hyperparameter tuning
+- Implement prioritized experience replay
+- Enhance NN architecture (e.g., Dueling DQN or Rainbow)
