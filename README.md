@@ -50,3 +50,6 @@ The approach of my implementation considers the following elements:
 - Run all cells in shown order
 - Last cell will return and print the scores from the DQN trainig of the agent
 - Hyperparameters can be adjusted when calling the dqn function
+
+## Results
+Results are reported and documented in Report.md
